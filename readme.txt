@@ -1,4 +1,4 @@
-old﻿新分支不小心将git远程地址配错了，再次配置提示以下错误：
+﻿old﻿1新分支不小心将git远程地址配错了，再次配置提示以下错误：
 
 fatal: 远程 origin 已经存在。
 
@@ -64,3 +64,6 @@ git push origin master
 查看记录 git log
 版本回退：$ git reset --hard HEAD^（^表示上一个版本^^表示上二个版本）
 回退指定版本： git reset --hard 3628164（3628164表示版本）
+删除远程库的分支：git push origin --delete <branchName>
+删除与远程不匹配的本地分支：	git fetch -p
+
